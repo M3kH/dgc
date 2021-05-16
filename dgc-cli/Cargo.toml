@@ -1,0 +1,13 @@
+[package]
+name = "dgc-cli"
+version = "0.1.0"
+authors = ["Mauro Mandracchia <mauromandracchia@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dgc-lib = { path = "../dgc-lib" }
+clap = { version = "3.0.0-beta.2", features = ["yaml"] } 
+openssl = "0.10.32"
+serde_json = "1.0.64"

@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "dgc-lib",
+    "dgc-cli",
+]
